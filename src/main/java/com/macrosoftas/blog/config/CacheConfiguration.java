@@ -42,6 +42,11 @@ public class CacheConfiguration {
             createCache(cm, com.macrosoftas.blog.domain.User.class.getName());
             createCache(cm, com.macrosoftas.blog.domain.Authority.class.getName());
             createCache(cm, com.macrosoftas.blog.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.macrosoftas.blog.domain.Blog.class.getName());
+            createCache(cm, com.macrosoftas.blog.domain.Entry.class.getName());
+            createCache(cm, com.macrosoftas.blog.domain.Entry.class.getName() + ".tags");
+            createCache(cm, com.macrosoftas.blog.domain.Tag.class.getName());
+            createCache(cm, com.macrosoftas.blog.domain.Tag.class.getName() + ".entries");
             // jhipster-needle-ehcache-add-entry
         };
     }
