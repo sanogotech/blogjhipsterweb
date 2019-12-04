@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.macrosoftas.blog",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "blog",
+    "packageName": "com.macrosoftas.blog",
+    "packageFolder": "com/macrosoftas/blog",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MzYzYmMyYjE0OWJmODI0M2MwNDUyMmUyMDg1MzcxYjA4ZDFmMDQ3MjViYzM3MDMwN2RkYzVkYzlhMDk1YzY1Njk0YzI5NjE5Yjc2MTBkZTk4OTMwYjhmZmRhNTBhMTRlM2Q2NGUxYWYzMzQ1OWI5NjdhNDQ0ZTI3ODBkOTZlNTU=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": ["gatling", "cucumber", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr", "en", "de"],
+    "blueprints": []
+  }
+}
